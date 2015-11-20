@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi (2.4.0)
+  - OutputTo (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - OutputTo (from `../`)
+
+EXTERNAL SOURCES:
+  OutputTo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  OutputTo: 711abe38b64e40c51071667d99bd21fe78b9c498
+
+COCOAPODS: 0.39.0

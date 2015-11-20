@@ -1,40 +1,22 @@
-#
-# Be sure to run `pod lib lint OutputTo.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "OutputTo"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of OutputTo."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/OutputTo"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Paul Zabelin" => "pzabelin+git@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/OutputTo.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'OutputTo' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.name                = "OutputTo"
+  s.version             = "0.1.0"
+  s.summary             = "Capture NSLog or printf output"
+  s.description         = <<-DESC
+Returns string containing output captured during execution of a block.
+Typical use to assert log output made by code under the test.
+Could be used in production code.
+Works with printf(), NSLog() and other loggers.
+Can capture output to stdout or stderr streams.
+                             DESC
+  s.homepage            = "https://github.com/paulz/OutputTo"
+  s.license             = 'MIT'
+  s.author              = { "Paul Zabelin" => "paulz@users.noreply.github.com" }
+  s.source              = { :git => "https://github.com/paulz/OutputTo.git", :tag => s.version.to_s }
+  s.social_media_url    = 'https://twitter.com/iospaulz'
+  s.platform            = :ios, '7.0'
+  s.requires_arc        = true
+  s.source_files        = 'Pod/Classes/**/*'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks          = 'Foundation'
 end

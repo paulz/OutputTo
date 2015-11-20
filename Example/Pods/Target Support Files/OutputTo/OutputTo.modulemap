@@ -1,0 +1,6 @@
+framework module OutputTo {
+  umbrella header "OutputTo-umbrella.h"
+
+  export *
+  module * { export * }
+}

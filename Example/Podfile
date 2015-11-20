@@ -1,12 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
+inhibit_all_warnings!                           # KWHaveValueMatcher.m:45:47: warning: 'isEqualOrMatches:' is deprecated
 
-target 'OutputTo_Example', :exclusive => true do
+target 'Tests', :exclusive => true do
   pod "OutputTo", :path => "../"
-end
-
-target 'OutputTo_Tests', :exclusive => true do
-  pod "OutputTo", :path => "../"
-
   pod 'Kiwi'
 end
