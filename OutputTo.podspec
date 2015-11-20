@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "OutputTo"
-  s.version             = "0.1.0"
+  s.version             = "0.2.0"
   s.summary             = "Capture NSLog or printf output"
   s.description         = <<-DESC
 Returns string containing output captured during execution of a block.
