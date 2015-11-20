@@ -296,6 +296,7 @@
 		490203A3FA4E9A01FED37816E4474435 /* KWBeIdenticalToMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeIdenticalToMatcher.m; path = Classes/Matchers/KWBeIdenticalToMatcher.m; sourceTree = "<group>"; };
 		4A603B2577DD6332CE8D974299D45E6B /* KWAsyncVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAsyncVerifier.h; path = Classes/Verifiers/KWAsyncVerifier.h; sourceTree = "<group>"; };
 		4ADF9813F0969A93CEE51116757D9083 /* Kiwi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kiwi-umbrella.h"; sourceTree = "<group>"; };
+		4B0DE8D01BFF13ED00959D16 /* OutputTo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutputTo.h; sourceTree = "<group>"; };
 		4B13E6EFC08EEB19B754D8522EDF5D9E /* KWItNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWItNode.h; path = Classes/Nodes/KWItNode.h; sourceTree = "<group>"; };
 		4C1C3863CCF96EDD6941773CC69EFFA0 /* KWExampleSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleSuite.h; path = Classes/Core/KWExampleSuite.h; sourceTree = "<group>"; };
 		4D3AC644F3066DE0C3046EC29DF3F7BC /* KWBeBetweenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeBetweenMatcher.h; path = Classes/Matchers/KWBeBetweenMatcher.h; sourceTree = "<group>"; };
@@ -490,6 +491,7 @@
 			isa = PBXGroup;
 			children = (
 				8A54237944CA3CB1AA2627D11890881D /* PZOutputTo.h */,
+				4B0DE8D01BFF13ED00959D16 /* OutputTo.h */,
 				BED55CEFD290532C76159F0044F70210 /* PZOutputTo.m */,
 			);
 			path = Classes;

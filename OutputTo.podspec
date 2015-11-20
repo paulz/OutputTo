@@ -17,6 +17,6 @@ Can capture output to stdout or stderr streams.
   s.platform            = :ios, '7.0'
   s.requires_arc        = true
   s.source_files        = 'Pod/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/OutputTo.h'
   s.frameworks          = 'Foundation'
 end
