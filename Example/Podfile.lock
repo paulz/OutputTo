@@ -1,6 +1,6 @@
 PODS:
   - Kiwi (2.4.0)
-  - OutputTo (0.1.0)
+  - OutputTo (0.2.0)
 
 DEPENDENCIES:
   - Kiwi
@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  OutputTo: 711abe38b64e40c51071667d99bd21fe78b9c498
+  OutputTo: 1ef30c463d3cebc587d927d1118fa68a28307a15
 
 COCOAPODS: 0.39.0

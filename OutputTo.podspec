@@ -16,7 +16,6 @@ Can capture output to stdout or stderr streams.
   s.social_media_url    = 'https://twitter.com/iospaulz'
   s.platform            = :ios, '7.0'
   s.requires_arc        = true
-  s.source_files        = 'Pod/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/OutputTo.h'
+  s.source_files        = 'Pod/Classes'
   s.frameworks          = 'Foundation'
 end
