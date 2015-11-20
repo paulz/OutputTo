@@ -13,4 +13,4 @@ before_install:
 script:
   - pod --version
   - pod lib lint --allow-warnings
-  - xcodebuild test -workspace Example/OutputTo.xcworkspace -scheme Tests -sdk iphonesimulator
+  - set -o pipefail && xcodebuild test -workspace Example/OutputTo.xcworkspace -scheme Tests -destination "platform=iOS Simulator,name=iPhone 6s,OS=latest" | xcpretty
